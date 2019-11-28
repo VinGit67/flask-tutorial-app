@@ -2,8 +2,6 @@ attrs==19.3.0
 Click==7.0
 coverage==4.5.4
 Flask==1.1.1
-# Editable install with no version control (flaskr==1.0.0)
--e /home/vincentb/u01/app/azure/flask-tutorial
 itsdangerous==1.1.0
 Jinja2==2.10.3
 MarkupSafe==1.1.1
