@@ -38,7 +38,7 @@ steps:
     StartupCommand: 'gunicorn --bind=0.0.0.0 "flaskr:create_app"'
 
 - script: |
-    if [ -d "instance"]; then
+    if [ -d "instance" ]; then
         export FLASK_APP=flaskr
         flask init-db         
     fi
