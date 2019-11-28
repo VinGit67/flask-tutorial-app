@@ -38,7 +38,7 @@ steps:
     StartupCommand: 'startup.txt'
 
 - script: |
-    if [ -d "instance" ]; then
+    if [ ! -d "instance" ]; then
         export FLASK_APP=flaskr
         flask init-db         
     fi
