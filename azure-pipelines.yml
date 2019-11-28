@@ -1,6 +1,6 @@
 variables:
   ConnectedServiceName: 'FlaskR-ServiceConnection'
-  WebAppName: '<vdb67-flaskr>'
+  WebAppName: 'vdb67-flaskr'
 
 trigger:
 - master
